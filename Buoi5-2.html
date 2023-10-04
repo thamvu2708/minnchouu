@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .box {
+            width: 250px;
+            height: 150px;
+            margin: 100px;
+            background-color: rgb(171, 27, 60);
+            /* background-color: rebeccapurple; */
+            /* transform:translateX(100%) */
+            /* transform: rotate(90deg); */
+            transition-property: transform background-color; 
+            transition-duration: 2s;
+            /* transition-delay: 5s; */
+            /* transition-timing-function: cubic-bezier(1s); */
+            border: 1px solid black;
+            font-weight: 700;
+            opacity: 0.5;
+            
+        }
+        .box:hover{
+            transform: scale(3);
+            background-color: green;
+            box-shadow: 15px 15px 50px black;
+        }
+        
+         
+    </style>
+    <div class="box">
+        <p> the paragraph </p>
+
+    </div>
+</body>
+</html>

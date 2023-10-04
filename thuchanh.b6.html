@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thuchanh</title>
+</head>
+<body>
+    <!-- <style>
+        nav {
+            margin: 50px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+        }
+        ul li {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: red;
+            transition: background-color 0.5s ease;
+            position: relative;
+        }
+        ul li a {
+            text-decoration:none;
+            color: #fff;
+            font-weight: bold;
+        }
+        li:hover {
+            background-color: gray;
+            
+              
+        }
+        .child-menu {
+            position: absolute;
+            top: 43px;
+            left: 0;
+            display: none;
+            width: 200px;
+            border-top: 25px solid transparent;
+            
+            
+        }
+        .child-menu::before{
+            content: '';
+            width: 25px;
+            height: 25px;
+            position: absolute;
+            background-color: red;
+            transform: rotate(45deg);
+            top: -13px;
+            left: 20px;
+            z-index: -1;
+
+        
+
+        }
+            
+        ul li:hover .child-menu {
+            display: block;
+        }
+        .child-menu a {
+            display: block;
+            color: rgb(134, 8, 19);
+            padding: 12px;
+            border: 1px solid #fff;
+            background-color: red;
+
+        }
+        .child-menu a:hover {
+            background-color: blueviolet;
+        }
+        .child-menu a:first-child {
+            border-top:  unset;
+        }
+        
+
+
+            
+
+    
+    </style>
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a>
+            </li>
+            <li><a href="#">Ca  phe</a>
+            <div class="child-menu">
+                <a href="#">Hạt cà phê Phúc Long</a>
+                <a href="#">Nghệ thuật pha chế</a>
+                <a href="#">Child 3</a>
+
+            </div>
+        </li>
+            <li><a href="#">Tra</a></li>
+        </ul>
+    </nav> -->
+    <style> 
+    body {
+        padding: 150px;
+    }
+    .spin {
+        border: 5px solid;
+        border-left-color :gray;
+        background-color:transparent;
+        width: 100px;
+        height: 100px;
+        animation: myspin 2s cubic-bezier(.1,0.33,.33,.4) infinite; 
+        border-radius: 100%;
+        position: relative;
+       
+    }
+    @keyframes myspin {
+        from{
+            transform: rotate(0deg);
+            left: 0;
+        }
+        to {
+            transform: rotate(360deg);
+            left: 100px;
+
+        }
+    }
+    </style>
+    <!-- <p> myspin la ten cua hoat anh</p> -->
+    <h1 style="color: red;"> CSS ANIMATION</h1>
+    <div class="spin"></div>
+</body>
+</html>

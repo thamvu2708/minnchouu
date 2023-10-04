@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buoi7</title>
+    
+</head>
+<body>
+    <style>
+        /* p::first-letter {
+            color: red;
+            font-weight: bold;
+            font-size: 32px;
+
+        }
+        .first-line::first-line {
+            color: purple;
+            font-weight: bold;
+
+        }
+        .first-line::selection {
+            background-color: blue;
+        } */
+        div {
+            position: relative;
+        }
+        div::before {
+            content: '';
+            color:brown;
+            width: 20px;
+            height: 20px;
+            font-weight: bold;
+            background-color: blueviolet;
+            position: absolute;
+            top: 0;
+            left: 70px;
+
+            
+        }
+        div::after{
+            content: 'phiasau';
+            color: green;
+        }
+
+    </style>
+    <div> su dung Pseudo elements</div>
+    <!-- <p class="first-line"> su dung Pseudo elements sssss</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eum doloribus, iusto a, ea voluptas magni iste, est provident corrupti consectetur deserunt laudantium sequi quaerat nostrum voluptatibus commodi sed. Doloribus.</p> -->
+
+</body>
+</html>

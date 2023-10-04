@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buổi học số 4</title>
+</head>
+<body>
+    <style>
+        span {
+            display: block;
+            background-color: red;
+            font-size: 20px;
+        }
+        .d-inline p span { 
+            display: inline-block;
+            padding: 12px;
+            margin: 6px;
+            background-color: rgb(40, 40, 5);
+        }
+        .d-inline-block span{
+           display: inline-block;
+           padding: 12px;
+           margin: 6px;
+           background-color: cyan;
+
+        }
+       .sp-1 p {
+         background-color: royalblue;
+        margin: 24px;
+        padding:  12px;
+        width: 200px;
+        height: 50px;
+        display: inline-block;
+    }
+    </style>
+    <div class="d-block">
+
+    <span> Chữ P số 1</span>
+    <span> Chữ P số 2</span>
+    <span> Chữ P số 3</span>
+    <span> Chữ P số 4</span>
+    <span> Chữ P số 5</span>
+    </div>
+    <div class="d-inline">
+        <p> paragraph 1</p>
+        <p> paragraph 2</p>
+        <p> paragraph 3</p>
+
+    </div>
+    <div class="d-inline-block">
+        <span class="sp-1">  inline block 1</span>
+        <span>  inline block 2</span>
+        <span>  inline block 3</span>
+
+    <style>
+        .container {
+            border: solid 1px;
+            width: 800px;
+            height: 400px;
+            overflow: scroll;
+            display: flex;
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            align-items: flex-start;
+            /* flex-wrap: wrap;
+            align-items: center; */
+
+        }
+        .box { 
+            background-color: cyan;
+            width: 25%;
+            height: 25%;
+            margin: 6px;
+        }
+        /* doi mau cho tung hieu ung rieng biet sudo class */
+        .box:nth-child(2) {
+            background-color: red;
+            align-self: flex-end;
+        }
+        .box:nth-child(4) {
+            background-color: red;
+            align-self: center;
+        }
+        .box:first-child {
+            background-color: blue;
+            /* height: 300px; */
+        }
+        .box:last-child {
+            background-color: aquamarine;
+            /* height: 150px; */
+        }
+        /* .box:hover{
+            cursor: pointer;
+            background-color: grey;
+            width: 26%;
+        } */
+
+        
+
+    </style>
+    </div>
+    <div class="container">
+    <div class="box"> box1</div>
+    <div class="box"> box2</div>
+    <div class="box"> box3</div>
+    <div class="box"> box4</div>
+    <div class="box"> box5</div>
+    
+    </div>
+    <style>
+        .hocsinh {
+            width: 250px;
+        }
+        .hocsinh p {
+            padding: 8px;
+            width: 100%;
+        }
+        .hocsinh p:first-child {
+            background-color: cadetblue;
+            font-weight: bold;
+        }
+        .hocsinh p:last-child{
+            background-color: pink;
+            font-weight: bold;
+        }
+        .hocsinh p:hover {
+            cursor: pointer;
+            background-color: gray;
+        }
+    </style>
+ <h3> Bang xep hang lop hoc</h3>
+    <div class="hocsinh">
+        <p> 1.Ty</p>
+        <p> 2.Teo</p>
+        <p> 3.Tom</p>
+        <p> 4.Tum</p>
+        
+</div>
+
+   
+    
+</body>
+</html>
